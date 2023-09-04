@@ -34,22 +34,22 @@ export const Projects = () => {
         <div className="grid sm:grid-cols-2 xl:grid-cols-3 container2 m-auto gap-16">
             <Cards 
                 texto={'Este proyecto trata sobre una encuesta en una universidad sobre como los profesores perciben el curso que se les asigno'}
-                url={''}
+                url={'https://mcencuesta.ced.com.co'}
                 img={'/img/encuesta.png'} 
             />
             <Cards 
                 texto={'Este proyecto se basa en el front-end realizado en una plataforma educativa que utiliza moodle'}
-                url={''}
+                url={'https://aulavirtual.cuc.edu.co'}
                 img={'/img/aulavirtual3.png'} 
             />
             <Cards 
                 texto={'Este proyecto trata sobre una encuesta en una universidad sobre como los profesores perciben el curso que se les asigno'}
-                url={''}
+                url={'https://mcencuesta.ced.com.co'}
                 img={'/img/encuesta.png'} 
             />
             <Cards 
                 texto={'Este proyecto se basa en el front-end realizado en una plataforma educativa que utiliza moodle'}
-                url={''}
+                url={'https://aulavirtual.cuc.edu.co'}
                 img={'/img/aulavirtual3.png'} 
             />
         </div>
