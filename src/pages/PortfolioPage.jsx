@@ -1,10 +1,13 @@
-import { Navbar } from "../components"
+import { Inicio, Navbar, About, Skill, Projects } from "../components";
 
 export const PortfolioPage = () => {
   return (
     <>
         <Navbar />
-        <h1>Portfolio</h1>
+        <Inicio />
+        <About />
+        <Skill />
+        <Projects />
     </>
   )
 }
