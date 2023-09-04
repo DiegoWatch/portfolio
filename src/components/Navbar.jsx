@@ -1,25 +1,25 @@
-import { Link } from "react-router-dom";
+import { HashLink as Link} from 'react-router-hash-link';
 
 export const Navbar = () => {
 
     const nav = [
-        ['Home', '/'],
-        ['About', '/about'],
-        ['Skill Set', '/skill'],
-        ['Projects', '/projects'],
-        ['Contact', '/contact'],
+        ['Home', '#home'],
+        ['About', '#about'],
+        ['Skill Set', '#skill'],
+        ['Projects', '#projects'],
+        ['Contact', '#contact'],
     ];
 
   return (
-    <header className="bg-blue-dark">
-        <div className="container m-auto flex justify-between items-center p-4">
+    <header className="bg-blue-dark fixed w-full">
+        <div className="container2 m-auto flex justify-between items-center p-4">
             <div className="text-white size text-2xl font-bold tracking-[-0.5px]">
              &#60;Diego Noriega /&#62;
             </div>
 
             <nav className="flex gap-3">
                 {nav.map(([title, url]) => (
-                    <Link key={title} href={url} className="text-white font-medium">{title}</Link>
+                    <Link key={title} smooth to={url} className="text-white font-medium">{title}</Link>
                 ))}
             </nav>
         </div>

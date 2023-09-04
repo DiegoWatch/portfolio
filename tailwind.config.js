@@ -13,7 +13,9 @@ export default {
       'blue-dark-1' : '#146e87',
       'blue-light-1' : '#1da9ca',
       'blue-light' : '#20dad8',
-      'white' : '#ffffff'
+      'white' : '#ffffff',
+      'transparent': 'transparent',
+      'gris': '#444444'
     },
     extend: {
     },

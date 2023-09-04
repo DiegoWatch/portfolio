@@ -1,4 +1,4 @@
-import { Inicio, Navbar, About, Skill, Projects } from "../components";
+import { Inicio, Navbar, About, Skill, Projects, Contact } from "../components";
 
 export const PortfolioPage = () => {
   return (
@@ -8,6 +8,7 @@ export const PortfolioPage = () => {
         <About />
         <Skill />
         <Projects />
+        <Contact />
     </>
   )
 }
