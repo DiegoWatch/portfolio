@@ -27,17 +27,17 @@ export const Contact = () => {
     <section className="contact p-10 bg-blue-light-1">
         <h2 className="text-center font-bold pb-10 text-5xl">Contact</h2>
 
-        <form className="bg-blue-dark-1 w-[800px] m-auto py-8 rounded-xl">
+        <form className="bg-blue-dark-1 w-[800px] m-auto py-8 rounded-xl form-contact">
             <div className="w-full flex justify-center mb-4">
-                <input className="p-2 rounded-xl bg-transparent text-white placeholder:text-white w-11/12 outline-none border-2 border-white border-solid" type="text"  placeholder="Nombre: "/>
+                <input className="p-2 rounded-xl bg-transparent w-11/12 outline-none" type="text"  placeholder="Nombre: "/>
             </div>
 
             <div className="w-full flex justify-center mb-4">
-                <input className="p-2 rounded-xl bg-transparent text-white placeholder:text-white w-11/12 outline-none border-2 border-white border-solid" type="email"  placeholder="Email: "/>
+                <input className="p-2 rounded-xl bg-transparent w-11/12 outline-none" type="email"  placeholder="Email: "/>
             </div>
 
             <div className="w-full flex justify-center mb-8">
-                <textarea className="p-2 rounded-xl bg-transparent text-white placeholder:text-white w-11/12 outline-none border-2 border-white border-solid" placeholder="Mensaje: " cols="30" rows="10" />
+                <textarea className="p-2 rounded-xl bg-transparent w-11/12 outline-none" placeholder="Mensaje: " cols="30" rows="10" />
             </div>
 
             <div className="flex justify-center">
