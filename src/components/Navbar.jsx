@@ -11,7 +11,7 @@ export const Navbar = () => {
     ];
 
   return (
-    <header className="bg-blue-dark fixed w-full">
+    <header className="bg-blue-dark fixed w-full shadow-2xl">
         <div className="container2 m-auto flex justify-between items-center p-4">
             <div className="text-white size text-2xl font-bold tracking-[-0.5px]">
              &#60;Diego Noriega /&#62;

@@ -26,9 +26,9 @@ export const About = () => {
 
                 <div>
                     <h2 className="text-center text-blue-dark-1 font-bold pb-10 text-5xl">About</h2>
-                    <p className="text-lg text-blue-dark mb-8">Desarrollador web tanto de front-end como back-end. Me gusta todo lo que tiene que ver con el desarrollo de páginas web por lo que investigo a menudo como puedo mejorar en estas tecnologías.</p>
+                    <p className="text-lg text-blue-dark mb-8">Desarrollador web fullStack e Ingeniero de Sistemas. Me gusta todo lo que tiene que ver con el desarrollo de páginas web por lo que investigo a menudo como puedo mejorar en estas tecnologías.</p>
 
-                    <p className="text-lg text-blue-dark">Desarrollador web tanto de front-end como back-end. Me gusta todo lo que tiene que ver con el desarrollo de páginas web por lo que investigo a menudo como puedo mejorar en estas tecnologías.</p>
+                    {/* <p className="text-lg text-blue-dark"></p> */}
                 </div>
             </div>
         </div>

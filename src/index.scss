@@ -13,7 +13,7 @@ body {
 }
 
 .card {
-    background-color: rgba($color: #20dad8, $alpha: .25);
+    // background-color: rgba($color: #20dad8, $alpha: .25);
     background-color: #146e87;
     box-shadow: rgba(50,50,93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
@@ -29,5 +29,19 @@ body {
         &::placeholder {
             color: white;
         }
+    }
+}
+
+i {
+
+    &.ocultar {
+        animation: fei-aut .5s forwards;
+    }
+}
+
+@keyframes fei-aut {
+    to {
+        opacity: 0;
+        display: none;
     }
 }
