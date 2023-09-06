@@ -39,6 +39,10 @@ i {
     }
 }
 
+.shadow-custom {
+    box-shadow: 0px 3px 12px black;
+}
+
 @keyframes fei-aut {
     to {
         opacity: 0;

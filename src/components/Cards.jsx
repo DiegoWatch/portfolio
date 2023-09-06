@@ -1,5 +1,9 @@
+import { animation } from "../helpers";
 
 export const Cards = ({img, texto, url}) => {
+
+  const animate = animation();
+
   return (
     // <div className="card">
     //     <div>
@@ -11,7 +15,7 @@ export const Cards = ({img, texto, url}) => {
     //         <a className="bg-blue-light-1 p-5 font-semibold block rounded-xl text-lg hover:scale-105 transition-all" href={url}>Ir al proyecto</a>
     //     </div>
     // </div>
-    <div className="card">
+    <div className="card" data-aos={animate}>
         <div>
             <img className="w-full rounded-t-lg" src={img} alt="img" />
         </div>
