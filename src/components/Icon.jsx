@@ -13,7 +13,7 @@ export const Icon = ({icon}) => {
   return (
     <div data-aos={animate}>
       <i 
-        className={`${icon} text-8xl text-blue-dark transition`} 
+        className={`${icon} text-8xl text-purple-dark transition`} 
         onMouseOver={(e) => e.target.className += ' colored'}
         onMouseLeave={eliminarClase}
       ></i>

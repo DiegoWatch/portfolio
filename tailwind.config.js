@@ -9,10 +9,10 @@ export default {
   ],
   theme: {
     colors: {
-      'blue-dark': '#124050',
-      'blue-dark-1' : '#146e87',
-      'blue-light-1' : '#1da9ca',
-      'blue-light' : '#20dad8',
+      'purple-dark': '#4e356e',
+      'purple-dark-1' : '#8c4287',
+      'rose-light-1' : '#de539e',
+      'rose-light' : '#ff70ac',
       'white' : '#ffffff',
       'transparent': 'transparent',
       'gris': '#444444',

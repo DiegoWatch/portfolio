@@ -24,10 +24,10 @@ export const Contact = () => {
     //         </div>
     //     </form>
     // </section>
-    <section id="contact" className="p-10 bg-blue-light-1">
+    <section id="contact" className="p-10 bg-rose-light-1">
         <h2 className="text-center font-bold pb-10 text-5xl">Contact</h2>
 
-        <form className="bg-blue-dark-1  md:w-[750px] m-auto py-8 rounded-xl form-contact">
+        <form className="bg-purple-dark-1  md:w-[750px] m-auto py-8 rounded-xl form-contact">
             <div className="w-full flex justify-center mb-4">
                 <input className="p-2 rounded-xl bg-transparent w-11/12 outline-none" type="text"  placeholder="Nombre: "/>
             </div>
@@ -41,7 +41,7 @@ export const Contact = () => {
             </div>
 
             <div className="flex justify-center">
-                <button type="submit" className="p-3 bg-blue-light-1 rounded-xl">
+                <button type="submit" className="p-3 bg-rose-light-1 rounded-xl">
                     Enviar Datos
                 </button>
             </div>

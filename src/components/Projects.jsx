@@ -29,7 +29,7 @@ export const Projects = () => {
     //     </div>
     // </section>
     <section id="projects" className="pt-24 pb-32">
-        <h2 className="text-center text-blue-dark-1 font-bold pb-10 text-5xl">Projects</h2>
+        <h2 className="text-center text-purple-dark-1 font-bold pb-10 text-5xl">Projects</h2>
 
         <div className="grid sm:grid-cols-2 xl:grid-cols-3 container2 m-auto gap-16">
             <Cards 
