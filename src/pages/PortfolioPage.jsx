@@ -5,7 +5,7 @@ export const PortfolioPage = () => {
     <>
         <Navbar />
         <Inicio />
-        <About />
+        {/* <About />
         <div className="flex justify-center mt-20">
             <div className="bg-gradient-to-r from-purple-dark to-rose-light-1 w-[85%] h-[2px] rounded-xl"></div>
         </div>
@@ -14,7 +14,7 @@ export const PortfolioPage = () => {
             <div className="bg-gradient-to-r from-purple-dark to-rose-light-1 w-[85%] h-[2px] rounded-xl"></div>
         </div>
         <Projects />
-        <Contact />
+        <Contact /> */}
     </>
   )
 }

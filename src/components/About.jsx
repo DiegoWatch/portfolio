@@ -24,9 +24,6 @@ export const About = () => {
 
         <div className="container2 m-auto">
             <div data-aos={animate} className="grid gap-16 md:grid-cols-2 md:gap-0 p-2">
-                <div className="flex justify-center items-center">
-                    <img className="w-64 rounded-[50%] border-4 border-purple-dark border-solid shadow-2xl" src="/img/perfil.png" alt="I'm Diego Noriega" />
-                </div>
 
                 <div data-aos={animate}>
                     <h2 className=" text-purple-dark-1 font-bold pb-10 text-5xl">About</h2>
