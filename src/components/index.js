@@ -6,3 +6,4 @@ export * from './Icon';
 export * from './Projects';
 export * from './Cards';
 export * from './Contact';
+export * from './Footer';
