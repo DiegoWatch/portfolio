@@ -11,32 +11,25 @@ export const Navbar = () => {
     ];
 
   return (
-    <header className="fixed w-full shadow-2xl z-50 ">
-        <div className="container2 m-auto flex justify-between items-center p-4">
-            <div className="text-white size text-2xl font-bold tracking-[-0.5px]">
-                <a href="/">
-                    &#60;Diego Noriega /&#62;
-                </a>
+    <header className="fixed w-full shadow-2xl z-50">
+        <div className='relative'>
+            <div className="container2 relative m-auto flex justify-between items-center p-4 z-10">
+                <div className="text-white size text-2xl font-bold tracking-[-0.5px]">
+                    <a href="/">
+                        &#60;Diego Noriega /&#62;
+                    </a>
+                </div>
+
+                <nav className="flex gap-3">
+                    {nav.map(([title, url]) => (
+                        <Link key={title} smooth to={url} className="text-white font-medium">{title}</Link>
+                    ))}
+                </nav>
             </div>
 
-            <nav className="flex gap-3">
-                {nav.map(([title, url]) => (
-                    <Link key={title} smooth to={url} className="text-white font-medium">{title}</Link>
-                ))}
-            </nav>
+            <div className='backdrop-blur-lg w-full absolute top-0 left-0 h-full'></div>
         </div>
 
-        {/* <div className="flex justify-between items-center w-[1200px] m-auto mt-10">
-            <div className="flex flex-col items-center p-10 gap-2 relative">
-                <h1 className="text-white font-bold m-0 z-10 relative">Soy Diego Noriega</h1>
-                <p className="text-white font-bold z-10 relative">Desarrollador FullStack</p>
-                <div class="absolute top-0 left-0 w-full h-full backdrop-blur-[9px] rounded-lg"></div>
-            </div>
-
-            <div className="w-20 h-20 rounded-full bg-white">
-                
-            </div>
-        </div> */}
     </header>
   )
 }

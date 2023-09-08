@@ -24,7 +24,7 @@ export const Contact = () => {
     //         </div>
     //     </form>
     // </section>
-    <section id="contact" className="pt-32 pb-12">
+    <section id="contact" className="pt-16 px-10 pb-12">
         <h2 className="text-center font-bold bg-gradient-to-t from-orange to-yellow bg-clip-text text-transparent mb-10 text-5xl">Contact</h2>
 
         <form className="bg-gris  md:w-[750px] m-auto py-8 rounded-xl form-contact">
