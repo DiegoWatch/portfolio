@@ -14,7 +14,9 @@ export const Navbar = () => {
     <header className="fixed w-full shadow-2xl z-50 ">
         <div className="container2 m-auto flex justify-between items-center p-4">
             <div className="text-white size text-2xl font-bold tracking-[-0.5px]">
-             &#60;Diego Noriega /&#62;
+                <a href="/">
+                    &#60;Diego Noriega /&#62;
+                </a>
             </div>
 
             <nav className="flex gap-3">
