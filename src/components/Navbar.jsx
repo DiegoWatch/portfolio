@@ -5,13 +5,13 @@ export const Navbar = () => {
     const nav = [
         ['Home', '#home'],
         ['About', '#about'],
-        ['Skill Set', '#skill'],
         ['Projects', '#projects'],
+        ['Skill Set', '#skill'],
         ['Contact', '#contact'],
     ];
 
   return (
-    <header className="fixed w-full shadow-2xl z-50">
+    <header className="fixed w-full shadow-2xl z-50 ">
         <div className="container2 m-auto flex justify-between items-center p-4">
             <div className="text-white size text-2xl font-bold tracking-[-0.5px]">
              &#60;Diego Noriega /&#62;

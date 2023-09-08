@@ -23,20 +23,25 @@ export const About = () => {
     <section id="about" className="about pt-24 pb-10">
 
         <div className="container2 m-auto">
-            <div data-aos={animate} className="grid gap-16 md:grid-cols-2 md:gap-0 p-2">
+            <div className="grid gap-16 md:grid-cols-[40%_20%_40%] md:gap-0 p-2">
 
                 <div data-aos={animate}>
-                    <h2 className=" text-purple-dark-1 font-bold pb-10 text-5xl">About</h2>
-                    <p className="text-lg text-purple-dark mb-16">Desarrollador web fullStack e Ingeniero de Sistemas. Me gusta todo lo que tiene que ver con el desarrollo de páginas web por lo que investigo a menudo como puedo mejorar en estas tecnologías.</p>
+                    <h2 className="bg-gradient-to-t from-orange to-yellow bg-clip-text text-transparent font-bold mb-10 text-5xl">About</h2>
+                    <p className="text-lg mb-16">Two age of experience working at the CUC University creating differents solutions on educate plataforms</p>
+                    {/* <p className="text-lg text-blue-dark"></p> */}
+                </div>
 
-                    <h2 className=" text-purple-dark-1 font-bold pb-10 text-5xl">Hobbies</h2>
-                    <ul className="text-purple-dark text-lg">
+                <div className="flex justify-center">
+                    <div className="bg-gradient-to-t from-orange to-yellow w-1 h-full rounded-3xl"></div>
+                </div>
+
+                <div data-aos={animate} className="flex flex-col items-center">
+                    <h2 className="bg-gradient-to-t from-orange to-yellow bg-clip-text text-transparent font-bold mb-10 text-5xl">Hobbies</h2>
+                    <ul className="text-lg">
                         <li>Play VideoGames</li>
                         <li>Watch Anime & Series</li>
                         <li></li>
                     </ul>
-
-                    {/* <p className="text-lg text-blue-dark"></p> */}
                 </div>
             </div>
         </div>

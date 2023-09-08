@@ -13,7 +13,7 @@ export const Skill = () => {
 
   return (
     <section id="skill" className="pt-20 pb-10">
-      <h2 className="text-center text-purple-dark-1 font-bold pb-10 text-5xl">Skill Set</h2>
+      <h2 className="text-center bg-gradient-to-t from-orange to-yellow bg-clip-text text-transparent font-bold mb-10 text-5xl">Skill Set</h2>
 
       <div className="container2 m-auto flex flex-wrap justify-center gap-10">
         {

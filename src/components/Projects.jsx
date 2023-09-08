@@ -28,8 +28,8 @@ export const Projects = () => {
     //         />
     //     </div>
     // </section>
-    <section id="projects" className="pt-24 pb-32">
-        <h2 className="text-center text-purple-dark-1 font-bold pb-10 text-5xl">Projects</h2>
+    <section id="projects" className="pt-10 pb-10">
+        <h2 className="text-center bg-gradient-to-t from-orange to-yellow bg-clip-text text-transparent pb-1 font-bold mb-10 text-5xl">Projects</h2>
 
         <div className="grid sm:grid-cols-2 xl:grid-cols-3 container2 m-auto gap-16">
             <Cards 

@@ -13,9 +13,11 @@ export default {
       'purple-dark-1' : '#8c4287',
       'rose-light-1' : '#de539e',
       'rose-light' : '#ff70ac',
+      'orange': '#ff7018',
+      'yellow': '#ffce1e',
       'white' : '#ffffff',
       'transparent': 'transparent',
-      'gris': '#444444',
+      'gris': '#464648',
       'gris-oscuro': '#1e1c06'
     },
     extend: {

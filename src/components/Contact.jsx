@@ -24,12 +24,12 @@ export const Contact = () => {
     //         </div>
     //     </form>
     // </section>
-    <section id="contact" className="p-10 bg-rose-light-1">
-        <h2 className="text-center font-bold pb-10 text-5xl">Contact</h2>
+    <section id="contact" className="pt-32 pb-12">
+        <h2 className="text-center font-bold bg-gradient-to-t from-orange to-yellow bg-clip-text text-transparent mb-10 text-5xl">Contact</h2>
 
-        <form className="bg-purple-dark-1  md:w-[750px] m-auto py-8 rounded-xl form-contact">
+        <form className="bg-gris  md:w-[750px] m-auto py-8 rounded-xl form-contact">
             <div className="w-full flex justify-center mb-4">
-                <input className="p-2 rounded-xl bg-transparent w-11/12 outline-none" type="text"  placeholder="Nombre: "/>
+                <input className="p-2 rounded-xl bg-transparent w-11/12 outline-none" type="text"  placeholder="Name: "/>
             </div>
 
             <div className="w-full flex justify-center mb-4">
@@ -37,12 +37,12 @@ export const Contact = () => {
             </div>
 
             <div className="w-full flex justify-center mb-8">
-                <textarea className="p-2 rounded-xl bg-transparent w-11/12 outline-none" placeholder="Mensaje: " cols="30" rows="10" />
+                <textarea className="p-2 rounded-xl bg-transparent w-11/12 outline-none" placeholder="Message: " cols="30" rows="10" />
             </div>
 
             <div className="flex justify-center">
-                <button type="submit" className="p-3 bg-rose-light-1 rounded-xl">
-                    Enviar Datos
+                <button type="submit" className="p-3 bg-gradient-to-t from-orange to-yellow rounded-xl">
+                    Submit
                 </button>
             </div>
         </form>
