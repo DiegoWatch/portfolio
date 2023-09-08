@@ -10,11 +10,7 @@ export default {
   theme: {
     colors: {
       'purple': '#5333ed',
-      'purple-dark-1' : '#8c4287',
-      'rose-light-1' : '#de539e',
-      'rose-light' : '#ff70ac',
-      'orange': '#ff7018',
-      'yellow': '#ffce1e',
+      'turquesa' : '#2cd4d9',
       'white' : '#ffffff',
       'transparent': 'transparent',
       'gris': '#464648',
