@@ -22,7 +22,7 @@ export const Cards = ({img, texto, url}) => {
 
         <div className="text-center rounded-lg p-5">
             <p className="text-lg mb-4">{texto}</p>
-            <a target="_blank" className="bg-gradient-to-t from-orange to-yellow p-5 font-semibold block rounded-xl text-lg hover:scale-105 transition-all" href={url}>Go to Proyect</a>
+            <a target="_blank" className="bg-purple p-5 font-semibold block rounded-xl text-lg hover:scale-105 transition-all" href={url}>Go to Proyect</a>
         </div>
     </div>
   )
