@@ -14,12 +14,12 @@ export const Inicio = () => {
         <div className="mt-10 flex justify-center gap-10">
           <div className="flex gap-2 items-center">
             <FaGithub className="text-2xl" />
-            <Link to="#contact" smooth>Github</Link>
+            <a href="https://github.com/DiegoWatch">Github</a>
           </div>
 
           <div className="flex gap-2 items-center">
             <FaLinkedin className="text-2xl" />
-            <Link to="#contact" smooth>Linkedin</Link>
+            <a href="https://www.linkedin.com/in/diego-noriega-50712b291/">Linkedin</a>
           </div>
 
           <div className="flex gap-2 items-center">
