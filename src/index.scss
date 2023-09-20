@@ -14,6 +14,21 @@ body {
     // font-family: 'Nunito', sans-serif;
     // font-family: 'Lato', sans-serif;
     background: linear-gradient(120deg, #1b1b1d, #212124, #39393b);
+
+    &::-webkit-scrollbar {
+        appearance: none;
+        background-color: rgb(161, 161, 161);
+      }
+  
+      &::-webkit-scrollbar:vertical {
+        width: 15px;
+      }
+  
+      &::-webkit-scrollbar-thumb {
+        background-color: rgba(0,0,0,.5);
+        //background-color: #999;
+        // border-radius: 10px;
+      }
 }
 
 .card {

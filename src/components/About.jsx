@@ -25,7 +25,7 @@ export const About = () => {
                     <ul className="text-lg">
                         <li>Play VideoGames</li>
                         <li>Watch Anime & Series</li>
-                        <li>GYM</li>
+                        <li>Do Exercise</li>
                     </ul>
                 </div>
             </div>
