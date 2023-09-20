@@ -7,19 +7,19 @@ export const Inicio = () => {
   const animate = animation();
 
   return (
-    <section id="home" className="container2 home grid gap-16 md:grid-cols-2 m-auto pt-36 pb-32 text-center">
+    <section id="home" className="container2 home grid gap-16 md:grid-cols-2 m-auto pt-36 pb-12 text-center">
       <div data-aos={animate} className="c1">
         <h1 className="m-0 mb-4 font-bold pb-2 px-5 text-[2.5rem] md:text-[4rem] bg-gradient-to-t from-orange to-yellow bg-clip-text text-transparent leading-[1]">Diego Andrés Noriega Izquierdo</h1>
         <h2 className="m-0 text-white font-medium text-xl">Web FullStack Developer</h2>
         <div className="mt-10 flex justify-center gap-10">
           <div className="flex gap-2 items-center">
             <FaGithub className="text-2xl" />
-            <a href="https://github.com/DiegoWatch">Github</a>
+            <a target="_blank" href="https://github.com/DiegoWatch">Github</a>
           </div>
 
           <div className="flex gap-2 items-center">
             <FaLinkedin className="text-2xl" />
-            <a href="https://www.linkedin.com/in/diego-noriega-50712b291/">Linkedin</a>
+            <a target="_blank" href="https://www.linkedin.com/in/diego-noriega-50712b291/">Linkedin</a>
           </div>
 
           <div className="flex gap-2 items-center">
