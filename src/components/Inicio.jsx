@@ -12,20 +12,20 @@ export const Inicio = () => {
         <h1 className="m-0 mb-4 font-bold pb-2 px-5 text-[2.5rem] md:text-[4rem] bg-gradient-to-t from-orange to-yellow bg-clip-text text-transparent leading-[1]">Diego Andrés Noriega Izquierdo</h1>
         <h2 className="m-0 text-white font-medium text-xl">Web FullStack Developer</h2>
         <div className="mt-10 flex justify-center gap-10">
-          <div className="flex gap-2 items-center">
+          <div className="flex gap-2 items-center transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
             <FaGithub className="text-2xl" />
             <a target="_blank" href="https://github.com/DiegoWatch">Github</a>
           </div>
 
-          <div className="flex gap-2 items-center">
+          <div className="flex gap-2 items-center transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
             <FaLinkedin className="text-2xl" />
             <a target="_blank" href="https://www.linkedin.com/in/diego-noriega-50712b291/">Linkedin</a>
           </div>
 
-          <div className="flex gap-2 items-center">
+          {/* <div className="flex gap-2 items-center">
             <FaFolder className="text-2xl" />
             <Link to="#contact" smooth>Contact Me</Link>
-          </div>
+          </div> */}
         </div>
       </div>
 

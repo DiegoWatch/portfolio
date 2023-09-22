@@ -124,10 +124,30 @@ i {
     animation: fade-menu .7s forwards;
 }
 
+#header {
+    &::before {
+        content: '';
+        height: 40px;
+        width: 100%;
+        position: absolute;
+        background: linear-gradient(to right, #ff7018, #ffce1e);
+        left: 0;
+        top: 0;
+        // border-radius: 50%;
+        // animation: move-to-right 3.5s infinite alternate;
+    }
+}
+
 
 @keyframes fade-menu {
     100% {
         visibility: hidden;
+    }
+}
+
+@keyframes move-to-right {
+    50% {
+        transform: translateX(1700px);
     }
 }
 

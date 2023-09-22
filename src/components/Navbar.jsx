@@ -1,6 +1,6 @@
 import { HashLink as Link} from 'react-router-hash-link';
 import { Xmark } from '../icons/Xmark';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 export const Navbar = () => {
 
@@ -16,7 +16,7 @@ export const Navbar = () => {
     
   return (
     <>
-        <header className="fixed w-full shadow-2xl z-10">
+        <header id="header" className="fixed w-full shadow-2xl z-10">
             <div className='relative'>
                 <div className="container2 relative m-auto flex justify-between items-center p-4 z-10">
                     <div className="text-white size text-2xl font-bold tracking-[-0.5px]">
