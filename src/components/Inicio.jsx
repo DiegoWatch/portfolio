@@ -30,7 +30,7 @@ export const Inicio = () => {
       </div>
 
       <div data-aos={animate} className="c2 flex flex-col gap-6 justify-center items-center">
-          <img className="w-64 rounded-[50%] bg-gradient-to-t from-orange to-yellow p-1 shadow-2xl animate-img" src="/img/perfil.png" alt="I'm Diego Noriega" />
+          <img className="w-64 rounded-[50%] bg-gradient-to-t from-orange to-yellow p-1 shadow-2xl animate-img" src="/img/diego.png" alt="I'm Diego Noriega" />
           <div className="w-[30%] h-3 bg-gris rounded-[50%]"></div>
       </div>
     </section>

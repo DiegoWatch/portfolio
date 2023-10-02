@@ -14,7 +14,8 @@ export default {
       'white' : '#ffffff',
       'transparent': 'transparent',
       'gris': '#464648',
-      'gris-oscuro': '#1e1c06'
+      'gris-oscuro': '#1e1c06',
+      'black': '#000000'
     },
     extend: {
     },

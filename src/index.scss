@@ -127,10 +127,11 @@ i {
 #header {
     &::before {
         content: '';
-        height: 40px;
+        height: 100%;
         width: 100%;
         position: absolute;
-        background: linear-gradient(to right, #ff7018, #ffce1e);
+        // background: linear-gradient(to right, #ff7018, #ffce1e);
+        background-color: #ff7018;
         left: 0;
         top: 0;
         // border-radius: 50%;
