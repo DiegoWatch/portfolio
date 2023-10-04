@@ -1,5 +1,5 @@
 import { HashLink as Link } from "react-router-hash-link";
-import { FaFolder, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
 import { animation } from "../helpers";
 
 export const Inicio = () => {
@@ -22,10 +22,10 @@ export const Inicio = () => {
             <a target="_blank" href="https://www.linkedin.com/in/diego-noriega-50712b291/">Linkedin</a>
           </div>
 
-          {/* <div className="flex gap-2 items-center">
-            <FaFolder className="text-2xl" />
-            <Link to="#contact" smooth>Contact Me</Link>
-          </div> */}
+          <div className="flex gap-2 items-center transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
+            <FaMailBulk className="text-2xl" />
+            <a href="mailto:diego17516@gmail.com" smooth>Mail Me</a>
+          </div>
         </div>
       </div>
 
